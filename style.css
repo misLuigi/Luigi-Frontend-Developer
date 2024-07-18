@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(22, 84, 137);
+}
+
+.navbar {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlogo {
+    font-size: 32px;
+    padding: 0.5em;
+    font-weight: bold;
+
+}
+
+li {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    font-size: 14px;
+    font-weight: bold;
+}
